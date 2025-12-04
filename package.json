@@ -1,13 +1,9 @@
 {
-  "name": "minecraft-bot-24-7",
+  "name": "minecraft-bot",
   "version": "1.0.0",
-  "description": "24/7 Minecraft bot for Aternos",
-  "main": "bot.js",
+  "main": "server.js",
   "scripts": {
-    "start": "node bot.js"
-  },
-  "engines": {
-    "node": ">=16.x"
+    "start": "node server.js"
   },
   "dependencies": {
     "mineflayer": "^4.11.1",
